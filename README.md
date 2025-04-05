@@ -1,36 +1,68 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🎬 AI Short Video Automation
 
-## Getting Started
+AI-powered platform to generate and render short videos programmatically using cutting-edge tools like Gemini, Remotion, Aigurulab, and Deepgram. Choose a genre, generate a script, customize styles, and create your video with ease.
 
-First, run the development server:
+---
+
+## 🚀 Tech Stack
+
+- **Frontend**: [Next.js](https://nextjs.org/), [Tailwind CSS](https://tailwindcss.com/)
+- **Database**: [Convex](https://www.convex.dev/)
+- **Authentication**: [Firebase Authentication](https://firebase.google.com/products/auth)
+- **Workflow Orchestration**: [Inngest](https://www.inngest.com/)
+- **Script Generation**: [Gemini Model](https://deepmind.google/technologies/gemini/)
+- **Image Generation**: [Aigurulab Model](https://www.aigurulabs.ai/)
+- **Video Rendering**: [Remotion](https://www.remotion.dev/)
+- **Audio Generation**: [Deepgram API](https://www.deepgram.com/)
+
+---
+
+## 🎥 Features
+
+- 🔍 **Genre Selection**: Pick from a wide variety of genres:
+  - Historic Story
+  - Kids Story
+  - Movie Stories
+  - AI Innovations
+  - Space Mysteries
+  - Horror Stories
+  - Mythological Tales
+  - Tech Breakthroughs
+  - True Crime Stories
+  - Fantasy Adventures
+  - Science Experiments
+  - Motivational Stories
+
+- ✍️ **Script Generation**:
+  - Automatically generate 2 unique scripts with the **Gemini** model
+  - Choose the one you prefer
+
+- 🎨 **Customization Options**:
+  - **Video Style**: Anime, Realistic, Cyberpunk
+  - **Caption Style**: Multiple Tailwind CSS-based themes
+  - **Audio Style**: Generated using Deepgram
+
+- 🎞 **Final Video Creation**:
+  - Combine script, images, captions, and audio
+  - Rendered using **Remotion**
+
+---
+
+## 🧠 How It Works
+
+1. Select a **genre**
+2. Generate 2 scripts using **Gemini AI**
+3. Pick your preferred **script**
+4. Choose **video style**, **caption style**, and **audio type**
+5. Click **Generate Video**
+6. Watch Remotion programmatically render your short video!
+
+---
+
+## 📦 Getting Started
+
+### 1. Clone the repository
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+git clone https://github.com/your-username/ai-short-video-automation.git
+cd ai-short-video-automation
