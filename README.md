@@ -66,6 +66,7 @@ AI-powered platform to generate and render short videos programmatically using c
 ```bash
 git clone https://github.com/your-username/ai-short-video-automation.git
 cd ai-short-video-automation
+```
 
 ## 📦 2. Install Dependencies
 
@@ -73,6 +74,7 @@ Install all required project dependencies using npm:
 
 ```bash
 npm install
+```
 
 # Firebase Configuration
 NEXT_PUBLIC_FIREBASE_API_KEY=your_firebase_api_key
@@ -94,4 +96,5 @@ AIGURULAB_API_KEY=your_aigurulab_api_key
 DEEPGRAM_API_KEY=your_deepgram_api_key
 npm run dev
 http://localhost:3000
+
 
