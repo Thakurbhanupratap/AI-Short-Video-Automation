@@ -66,3 +66,32 @@ AI-powered platform to generate and render short videos programmatically using c
 ```bash
 git clone https://github.com/your-username/ai-short-video-automation.git
 cd ai-short-video-automation
+
+## 📦 2. Install Dependencies
+
+Install all required project dependencies using npm:
+
+```bash
+npm install
+
+# Firebase Configuration
+NEXT_PUBLIC_FIREBASE_API_KEY=your_firebase_api_key
+NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=your_project.firebaseapp.com
+NEXT_PUBLIC_FIREBASE_PROJECT_ID=your_firebase_project_id
+NEXT_PUBLIC_FIREBASE_APP_ID=your_firebase_app_id
+NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
+
+# Convex Database
+NEXT_PUBLIC_CONVEX_URL=https://your-convex-instance.convex.cloud
+
+# Gemini AI Model (Script Generation)
+GEMINI_API_KEY=your_gemini_api_key
+
+# Aigurulab API (Image Generation)
+AIGURULAB_API_KEY=your_aigurulab_api_key
+
+# Deepgram API (Audio Generation)
+DEEPGRAM_API_KEY=your_deepgram_api_key
+npm run dev
+http://localhost:3000
+
